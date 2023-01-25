@@ -37,7 +37,7 @@ body{
 }
 #tableHead{
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -49,14 +49,21 @@ table {
 }
   
 tr {
-  border-bottom: 1px solid black;
-  background-color: white;
+  /* border-bottom: 1px solid black; */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
   font-size: 20px;
 }
   
 td {
   text-align: center;
-  border-bottom: 1px solid black;
-  background-color: white;
+  /* border-bottom: 1px solid black; */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
   color: black;
+  height: 47px;
+  box-shadow: 1px 1px 10px gray;
+}
+th{
+  height: 52px;
+  color: purple;
+  box-shadow: inset 1px 1px 10px blueviolet;
 }

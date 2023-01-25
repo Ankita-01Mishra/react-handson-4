@@ -6,7 +6,8 @@ import {useNavigate } from 'react-router-dom'
 const Students = () => {
   const navigate=useNavigate();
   const studentadd=()=>{
-    navigate('/Addstudent')
+    // navigate('/Addstudent')
+    console.log('clicked');
   }
 
   return (
