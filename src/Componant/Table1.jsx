@@ -19,7 +19,7 @@ const tableRows=data.map(
 			<td>{element.Age}</td>
 			<td>{element.Course}</td>
 			<td>{element.Batch}</td>
-			<td><Link to="/edit">{element.Change}</Link></td>
+			<td><button>{element.Change}</button></td>
 			</tr>
 		)
 	}
